@@ -1,0 +1,252 @@
+*{ /*don't change anything here*/
+	font-family: Helvetica, sans-serif;
+	color: seashell;
+	text-align: center;
+	align-items: center;
+}
+
+body {/*don't change anything here*/
+	width: 1240px;
+	background-color: black;
+	opacity: 0.9;
+	margin: 20px;
+}
+
+/*Need to resize fonts*/
+
+h2{
+	font-size: 34px;
+	display: block;
+	height: 50px;
+	width: 100%;
+}
+
+h3{
+	font-size: 30px;
+	display: block;
+	width: 100%;
+	align-items: center;
+}
+
+h4{
+	font-size: 22px;
+	display: block;
+	width: fit-content;
+}
+
+h5{
+	font-size: 22px;
+}
+
+p{
+	line-height: 60px;
+}
+
+img{
+	width: 50px;
+}
+
+/*Cozy logo pic*/
+#logo{
+	float: left;
+	height: 50px;
+	width: fit-content;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+
+/*menu bar on top left side
+DON'T MAKE CHANGES*/
+	
+header{
+	justify-content: center;
+	margin-top: 0;
+	padding-top: 0px;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	z-index: 5;
+}
+
+li{
+	margin: 0 30px 15px;
+}
+
+#right{
+	font-size: 22px;
+	padding: auto;
+	list-style-type: none;
+	text-decoration: underline;
+	display: flex;
+	position: relative;
+	top: 0;
+	right: 0;
+	float: right;
+	margin-bottom: 5px;
+}
+
+/*Our Mission starts here*/
+
+/*Our Mission pic*/
+
+#mission{
+	width: 1200px;
+	height: 700px;
+	padding: 0 20px;
+	background-size: fill;
+	position: relative;
+	top: 55px;
+	z-index: auto;
+	align-items: center;
+}
+
+/*Our Mission headings*/
+/*To make changes individually go to the "h#"*/
+.mission{
+	width: 1200px;
+	background-color: #000000;
+	position: absolute;
+	z-index: 2;
+	padding: 15px;
+}
+
+h2.mission{
+	top: 300px;
+	padding-bottom: 35px;
+}
+
+h4.mission{
+	background-color: transparent;
+	top: 350px;
+}
+
+div.big-pic{
+	padding: 0;
+	max-width: 3500px;
+	box-sizing: border-box;
+	height: fit-content;
+	display: flex;
+	z-index: 1;
+	align-items: center;
+}
+
+/*Tea of the Month's quote*/
+
+div.main{
+	display: block;
+}
+
+div.month{
+	padding-top: 100px;
+	margin-bottom: -30px;
+}
+
+.child h4{
+	margin-left: 450px;
+	margin-right: 50px;
+	margin-bottom: 5px;
+}
+
+/*Different Teas*/
+
+/*makes changes to the parent div*/
+div.teas{
+	width: 1000px;
+	margin: 0 100px;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	position: relative;
+	}
+
+/*child labeled box*/
+div.box{
+	height: 230px;
+	width: 300px;
+	display: inline-block;
+	margin: 20px 15px;
+
+}
+
+/*images*/
+.box img{
+	height: 200px;
+	width: 300px;
+	margin-bottom: -20px;
+}
+
+/*tea names*/
+.box h4{
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+/*Our Location*/
+
+/*parent container/pic*/
+
+.location{
+	height: 700px;
+	max-width: 1200px;
+	margin: 40px auto auto auto;
+	padding-top: 85px;
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*kzh39t*_ga*MTk1NTQwNDI2OC4xNjU3NTgyODQ4*_ga_3LRZM6TM9L*MTY4OTQwMzg4OC4yNTUuMS4xNjg5NDAzODk0LjU0LjAuMA..");
+	background-repeat: no-repeat;
+}
+
+#location h2{
+	display: block;
+	padding-left: 0;
+	border: 0;
+	margin: 0;
+}
+
+/*three boxes with the locations*/
+
+div.loc{
+	height: 265px;
+	width: 300px;
+	background-color: #000000;
+	align-items: center;
+	display: inline-block;
+	z-index: 1;
+	padding: 0;
+	margin: 15px 20px;
+}
+
+/*Name of location*/
+
+.loc h3{
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/*address*/
+.loc p{
+	line-height: 60px;
+
+}
+
+/*left off here but need to go back to make sure nothing changes, or will have to adjust*/
+
+/*Contact info*/
+
+div.contact{
+	height: 200px;
+	max-width: 1240px;
+	display: block;
+	position: relative;
+	z-index: 1;
+	background-position: right;
+	background-color: black;
+	margin-top: -205px;
+	padding: 15px;
+}
+
+/*copyright*/
+
+div.bottom-left{
+	display: block;	
+	float: left;
+}
